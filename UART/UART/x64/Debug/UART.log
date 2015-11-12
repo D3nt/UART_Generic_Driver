@@ -1,0 +1,17 @@
+﻿Build started 10/27/2015 11:09:06 AM.
+     1>Project "F:\UART\UART\UART.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt uart.c
+         uart.c
+     1>uart.c(126): warning C4047: 'initializing' : 'uint32_t' differs in levels of indirection from 'uint32_t *'
+     1>uart.c(176): warning C4047: 'function' : 'uint32_t' differs in levels of indirection from 'uint32_t *'
+     1>uart.c(176): warning C4024: 'WRITE_REGISTER' : different types for formal and actual parameter 2
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\UART\x64\Debug\UART.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\UART\x64\Debug\UART.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\UART\x64\Debug\UART.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\uart.obj
+         UART.vcxproj -> F:\UART\x64\Debug\UART.exe
+     1>Done Building Project "F:\UART\UART\UART.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
